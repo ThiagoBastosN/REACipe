@@ -7,7 +7,6 @@ function App() {
   
   const [searchValue, setSearchValue] = useState('');
   const [recipes, setRecipes] = useState(undefined);
-  const [searched, setSearched] = useState(false);
 
   const API_KEY = "c7d7be83e6fe0ccd408f6a66a74a8c6d";
   const API_ID = "ada4506b";
@@ -54,7 +53,7 @@ function App() {
           return <h1 className="recipes-found">No recipes found</h1>;
         }
       })()
-      : <h1 hidden={searched} className="have-searched">You haven't searched recipes yet</h1>}
+      : <h1 className="have-searched">You haven't searched recipes yet</h1>}
 
     </div>
   );
