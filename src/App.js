@@ -8,9 +8,8 @@ function App() {
   const [searchValue, setSearchValue] = useState('');
   const [recipes, setRecipes] = useState(undefined);
 
-  const API_KEY = "c7d7be83e6fe0ccd408f6a66a74a8c6d";
-  const API_ID = "ada4506b";
-  //"https://api.edamam.com/search?q=chicken&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}"
+  const API_KEY = "your edamam api key";
+  const API_ID = "your edamam api id";
   
   const onSubmitButton = async e =>
   {
