@@ -15,6 +15,7 @@ img{
 }
 
 .recipe{
+    font-family: 'Redressed', cursive;
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgb(71, 71, 71);
     margin: 20px;

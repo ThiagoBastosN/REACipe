@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Recipe from '../recipe/Recipe';
+import './Main.css'
 import dotenv from 'dotenv'
 dotenv.config();
 
